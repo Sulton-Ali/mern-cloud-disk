@@ -1,0 +1,13 @@
+@import '../colors.scss';
+
+input {
+  border: none;
+  border-bottom: $font-color solid 3px;
+  background: transparent;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: $font-color;
+  font-weight: 700;
+}
