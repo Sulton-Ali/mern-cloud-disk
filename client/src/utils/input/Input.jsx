@@ -1,10 +1,15 @@
-import React from 'react';
-import './input.scss';
+import React from "react";
+import "./input.scss";
 
 const Input = (props) => {
   return (
-    <input type={props.type} placeholder={props.placeholder} />
-  )
-}
+    <input
+      onChange={(event) => props.setValue(event.target.value)}
+      value={props.value}
+      type={props.type}
+      placeholder={props.placeholder}
+    />
+  );
+};
 
-export default Input
+export default Input;

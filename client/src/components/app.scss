@@ -7,12 +7,21 @@
   color: $font-color;
 }
 
+body {
+  background-color: $background-color;
+}
+
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $background-color;
+}
+
+.wrap {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
 }
 
 #root {
