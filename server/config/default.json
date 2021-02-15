@@ -1,5 +1,6 @@
 {
   "serverPort": 5000,
   "dbUrl": "mongodb+srv://aliadmin:ali7525@cloud.q3ylf.mongodb.net/cloud?retryWrites=true&w=majority",
-  "secretKey": "mern-secret-key"
+  "secretKey": "mern-secret-key",
+  "filePath": "B:\\learning\\nodejs\\mern-cloud-disk\\server\\files"
 }
